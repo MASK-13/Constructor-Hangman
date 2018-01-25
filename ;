@@ -1,0 +1,46 @@
+//  Modularization  Files and Variables 
+//  var gameFile = require ("./game.js");
+//  var wordConstructor = require ("./word.js");
+//  var letterConstructor = require ("./letter.js");
+//  var randomWord = gameFile.randomWord;
+//  var myWOrd = new wordConstructor.wordConstrructor(gameFile.randomWord);
+//  var letterGuessed;
+//  var maxGuess = 10;
+//  export.letter;
+//  
+//
+//  //npm
+//  var inquirer = require("inquirer");
+//  function makesGuess(){
+//  	console.log(myWord.toString());
+//
+//  	if(myWord.userGuesses.length > =maxGuess){
+//  	console.log("You run OUT of ...");
+//
+//  	return;
+//
+//  	}
+//	inquirer.promp([{
+//	name: "letter",
+//	type: "text",
+//	message: "Please enter a letter",
+//	}].then(function(letterInput){
+//	var letter = letterInput.letter;
+//	myWord.findLetter(letter);
+//
+//	if (myWord.isComplete()){
+//	console.log ("CORRECTO MUNDO ! the word was " + myWord.toString() + "!");
+//	return;
+//	}
+//
+//	console.log(" ------ NICE try------ ");
+//	console.log("You have " + (maxGuess - myWord.userGuesses.length) + " guesses left");
+//	makeGuess();
+//	});
+//}
+//
+//
+//// let the GAME BEGINS  :
+//
+   makeGuess();
+
